@@ -9,7 +9,7 @@ class Equipo extends Model
 {
     use HasFactory;
     protected $table = 'equipo';
-    protected $fillable = ['nombre', 'serie', 'salida', 'fecha', 'venta', 'costo', 'usuario', 'email_verified_at', 'descripcion'];
+    protected $fillable = ['nombre', 'serie', 'salida', 'fecha_inicio', 'venta', 'costo', 'usuario', 'descripcion'];
 
     public $timestamps = true;
 

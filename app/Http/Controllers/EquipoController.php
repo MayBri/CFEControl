@@ -40,7 +40,6 @@ class EquipoController extends Controller
         $equipo = new Equipo();
         //$tour->email = Auth::user()->email;
         $equipo->nombre  = $request->nombre;
-        $equipo->estado = $request->estado;
         $equipo->costo = $request->costo;
         $equipo->estado = $request->estado;
         $equipo->usuario = $request->usuario;
